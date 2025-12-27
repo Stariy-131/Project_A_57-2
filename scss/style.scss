@@ -1,0 +1,55 @@
+.start {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.all_class {
+    width: 1280px;
+    margin: 0 auto;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+    .class {
+        width: 400px;
+        text-align: center;
+        background-color: white;
+        margin: 0;
+        padding: 30px 0;
+        cursor: pointer;
+    }
+    .left {
+        border-radius: 20px 0 0 0;
+    }
+    .right {
+        border-radius: 0 20px 0 0;
+    }
+    // Почему-то не работает border-radius в классе выше. Из-за чего пришлось сделать доп.классы.
+}
+
+.info {
+    width: 1280px;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: justify;
+    background-color: white;
+    padding: 40px 0;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    .text {
+        width: 800px;
+        padding: 0 20px;
+    }
+    .image {
+        width: 600px;
+        height: 300px;
+        padding: 0 20px;
+        img {
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+}

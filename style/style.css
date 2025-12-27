@@ -1,0 +1,54 @@
+.start {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.all_class {
+  width: 1280px;
+  margin: 0 auto;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px 20px 0 0;
+}
+.all_class .class {
+  width: 400px;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  padding: 30px 0;
+  cursor: pointer;
+}
+.all_class .left {
+  border-radius: 20px 0 0 0;
+}
+.all_class .right {
+  border-radius: 0 20px 0 0;
+}
+
+.info {
+  width: 1280px;
+  margin: 0 auto;
+  font-size: 24px;
+  text-align: justify;
+  background-color: white;
+  padding: 40px 0;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+}
+.info .text {
+  width: 800px;
+  padding: 0 20px;
+}
+.info .image {
+  width: 600px;
+  height: 300px;
+  padding: 0 20px;
+}
+.info .image img {
+  width: 100%;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
