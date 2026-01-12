@@ -1,54 +1,22 @@
-.start {
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  cursor: pointer;
-}
-
-.all_class {
-  width: 1280px;
-  margin: 0 auto;
-  font-size: 24px;
+.slides {
   display: flex;
+  gap: 10px;
+  margin-top: 100px;
   justify-content: center;
-  border-radius: 20px 20px 0 0;
-}
-.all_class .class {
-  width: 400px;
-  text-align: center;
-  background-color: white;
-  margin: 0;
-  padding: 30px 0;
-  cursor: pointer;
-}
-.all_class .left {
-  border-radius: 20px 0 0 0;
-}
-.all_class .right {
-  border-radius: 0 20px 0 0;
 }
 
-.info {
-  width: 1280px;
-  margin: 0 auto;
-  font-size: 24px;
-  text-align: justify;
-  background-color: white;
-  padding: 40px 0;
-  border-radius: 0 0 20px 20px;
-  display: flex;
+.slide {
+  width: 10%;
+  height: 700px;
+  cursor: pointer;
 }
-.info .text {
-  width: 800px;
-  padding: 0 20px;
-}
-.info .image {
-  width: 600px;
-  height: 300px;
-  padding: 0 20px;
-}
-.info .image img {
+.slide img {
   width: 100%;
-  border-radius: 20px;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.action {
+  width: 60%;
+  height: 700px;
 }/*# sourceMappingURL=style.css.map */
